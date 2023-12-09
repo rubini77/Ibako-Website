@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.off-div{
+    height: 100%;
+    width: auto;
+    padding: 5px;
+    background-color: #e29e1f;
+    transform: rotate(-3.5deg);
+}
+
+.top-bar{
+    text-decoration: none;
+    color: black;
+    font-size: 1.09rem;
+}
+.top-bar:hover{
+    color: black;
+}
+.flw-us{
+    font-size: 1.09rem;
+}
+/* ==nav bar== */
+.navbar-nav{
+    display: flex;
+    justify-content: baseline;
+}
+.logo-img{
+    height: 60px;
+    width: 70px;
+    border-radius: 50%;
+}
+.nav-link{
+    font-size: 1.1rem;
+    border-bottom: 1px solid #e29e1f;
+}
+.nav-link:hover{
+    color: black;
+    background-color: #e29e1f;
+    /* border-radius: 50%; */
+}
+.nav-link:active{
+    background-color: #e29e1f;
+}
+.dropdown-item:hover{
+    background-color: #e29e1f;
+}
+.btn{
+    outline: #e29e1f;
+    border: 1px solid #e29e1f;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.btn:hover{
+    background-color: #e29e1f;
+}
+.search-box{
+    border: 1px solid #e29e1f;
+    /* box-shadow: 3px 4px 3px #e6ba69; */
+    outline: #e29e1f !important;
+ }
+ .search-box:focus{
+    box-shadow: none !important;
+}
+
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+} */
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+  .carousel-item {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    /* overflow: hidden; */
+  }
+
+  .name{
+    background: -webkit-linear-gradient(45deg, rgb(245, 195, 195), rgb(248, 245, 246), rgb(240, 146, 185));
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    /*-webkit-text-fill-color: transparent; */
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* display: inline-block; */
+    text-align: center;
+  }
+  
+  video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-size: cover;
+    padding: 25px; 
+    color: #fff; 
+    text-align: center;
+    z-index: 2; 
+    
+  }
+  .des-btn {
+    background-color: #d18f14; 
+    color: #080808; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .name{
+    font-weight: bolder;
+  }
+  /* ====best sales===== */
+
+.icon{
+    overflow: hidden;
+}
+.icon img{
+    transition: 0.5s ease;
+}
+.icon img:hover{
+    transform: scale(1.3);
+}
+/* =====gifting section =====*/
+  
+.gift-btn{
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: inset 0px 0px 7px 0px gray;
+}
+/* ===make own==== */
+#make-div{
+    overflow: hidden;
+}
+#make-div #make-img{
+    transition: 0.5s ease;
+}
+#make-img:hover{
+    transform: scale(0.9);
+}
+/* review */
+#read-btn{
+    background: rgb(252, 223, 228);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    /* font-size: 13px; */
+    box-shadow: inset 0px 0px 7px 0px rgb(250, 161, 220);
+}
+
+  
+  .card {
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .card img {
+    max-width: 75px;
+    border-radius: 100%;
+  }
+  
+  .card__content {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .card__content span i {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  
+  .card__details p {
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+  
+  .card__details h4 {
+    text-align: right;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  /* join us franchisee */
+  #contact-now{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border: 1px solid #d18f14;
+    margin: 5px 5px;
+    padding: 5px 5px;
+  }
+#con-div{
+    height: auto;
+    width: auto;
+    border: 2px solid #d18f14;
+    background-image: url('bg.img.png');
+    background-size: cover;
+    background-color: var(--white);
+
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-control{
+    box-shadow: none !important;
+    border: 1px solid #e29e1f !important;
+    /* color: var(--primary-color) !important; */
+}
+.form-check-input{
+    box-shadow: none !important;
+    border: 1px solid #e29e1f !important;
+}
+.form-select{
+    box-shadow: none !important;
+    border: 1px solid #e29e1f !important;
+    /* color: var(--primary-color) !important; */
+}
+.btn-sub{
+    color: black;
+    font-size: 16px;
+    border: 1px solid #e29e1f;
+    background-color: #f3b94d;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px 0px #d18f14;
+}
+.btn-sub:hover{
+    color: #f3b94d;
+    background-color: black;
+}
+/* user icon */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color:  rgba(26, 26, 26, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+    min-width: 300px; 
+    text-align: center;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+     /* height: 10px;
+    width: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px; */
+    cursor: pointer;
+    z-index:5;  
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.user-icon {
+    cursor: pointer;
+}
+
+
