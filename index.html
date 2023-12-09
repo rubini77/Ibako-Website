@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibako</title>
+    <link rel="icon" type="image/x-icon" href="icon-img-1.jbg.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script> -->
+<script src="ibakoScript.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    
+    <section class="bg-light" id="ibako-logo-img" style="background:linear-gradient(to top,#FBEDE5,white,#fce9e2);">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12"> 
+                <div class="row align-items-center" style="padding-top: 12px;padding-bottom:4px;">
+                   <div class=" col-sm-12 col-md-7">
+                     <h5 style="font-size: 1.125rem; line-height: 1; vertical-align: middle;" class="off-div mb-2 d-inline-block mr-3 align-left heading-light">
+                       <b>10% OFF</b></h5>
+                           <div class="ps-1 mb-2 d-inline-block" style="text-align: left; vertical-align: middle;margin-left: -3.5px;">
+                              <div>
+                                 <h4 style="font-weight: 500; color: #777777; font-size: 18px; line-height: 1;">Use <b style="color: #ac7206;">IBAKO23</b> Coupon Code</h4>
+                              </div>
+                            <div style="font-weight: 500; font-size: 11px; line-height: 17px;color: #777777;">* Minimal Price</div>
+                           </div>
+                   </div>
+                    <div class="col-sm-12 col-md-5">
+                    <div class="mb-2 text-md-end" style="text-align: right;">
+                       <div>
+                          <h4 style="font-size: 1.125rem; line-height: 1.2; letter-spacing: 0.01em;color: #ac7206;">FREE DELIVERY ON PRE ORDERS*</h4></div>
+                             <div style="font-weight: 500; font-size: 11px; line-height: 1.2;color: #777777;">* On Business Days - On Orders Over $25
+                            </div>
+                        </div>
+                   </div>
+                </div>
+               </div>
+            </div>
+       </div>
+    </section>
+    
+    <!-- ====home contact sec==== -->
+    <section class="bg-light border-bottom-1">
+        <div class="container-fluid pt-2 pb-2">
+            <div class="head row d-lg-flex">
+                <div class="col-6 text-start d-flex " data-aos="zoom-in">
+                    <a class="top-bar p-1" data-aos="zoom-in" href="index.html">Home</a>
+                    <a class="top-bar p-1 ps-3" href="#contact-us">Contact Us</a>
+                </div>
+                <div class="col-6 text-end pt-1" data-aos="fade-up"><span class="flw-us pt-2  d-none d-md-inline">Join Us :</span>
+                    <svg style="background-color: rgb(59, 179, 226);color:white;border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="twitter-icon bi bi-twitter p-2" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>
+                    <svg style="background-color: rgb(42, 42, 248);color:white;border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="fb-icon bi bi-facebook p-2" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+                    <svg style="background: linear-gradient(to bottom, yellow,#f78f3b,#ec1c73);border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="insta-icon bi bi-instagram p-2" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg>
+                    <svg style="background-color: rgb(4, 138, 190);color:white;border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="in-icon bi bi-linkedin p-2" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+                </div>
+            </div> 
+        </div>      
+    </section>
+    <!-- =====NAVBAR SECTION===== -->
+    <section class="navbar-sec container-fluid bg-white pt-2 pb-2 sticky-top"  style="box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="ps-2 p-1 justify-content-start animate__animated animate__backInDown">
+                <a href="#ibako-logo-img"><img class="logo-img img-fluid " src="icon-img-1.jbg.jpg"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto gap-2 animate__animated animate__backInDown">
+                    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#BestSellSec">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gift-sec">Gifting Corner</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#make-on-your-own-sec" aria-disabled="true">Bake on your own</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About ibako
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#review-sec">Reviews</a></li>
+                      <li><a class="dropdown-item" href="#">Buy Now</a></li>
+                      <li><a class="dropdown-item" href="#contact-us">Contact</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#join-with-us-sec" aria-disabled="true">Franchise</a>
+                  </li>
+             </ul>
+                    <div class="icons d-flex ms-auto pt-2 ">
+                      <div class="user-icon"  data-aos="fade-up">
+                        <a style="color:palevioletred ;" href="#">
+                          <svg id="user-icon" xmlns="http://www.w3.org/2000/svg"  width="23" height="23" fill="currentColor" class="bi bi-person-circle me-4" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg></a>
+                      </div>
+                    <!-- signup -->
+                     <div id="popup" class="popup">
+                      <div class="popup-content">
+                        <button class="close-button" id="close-button">&times;</button>
+                        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+                          <div class="row border rounded-3 p-3 bg-white shadow box-area">
+                   
+                            <div class="col-md-6 rounded-3 d-flex justify-content-center align-items-center flex-column left-box" style="background-image: url(ro-bg.jpg);background-size: cover;">           
+                               <div class="image mb-3">
+                                   <img src="icon-img-1.jbg.jpg" class="img-fluid rounded-circle" style="width: 250px;">
+                               </div>
+                               <p class="fs-2" style="font-weight: 600;"><span style="color: #c78306; border-bottom: 1px solid #c78306;">B</span>e verified</p>
+                               <small class="text-wrap text-center" style="width: 17rem;"><span style="color: #c78306; border-bottom: 1px solid #c78306;">C</span>rafed for Gifting, Indulge in the Art of Gifting Happiness!</small>
+                            </div>
+                   
+                            <div class="col-md-6 right-box rounded-3" id="log-in"  style="background-image: url(bg.img.png);background-size: cover;">
+                                <div class="row align-items-center">
+                                   <div class="header-text text-center mb-4">
+                                       <h2 class="fw-bold">Sign In</h2>
+                                       <h6>We are happy to have you!</h6>
+                                   </div>
+                                   <div class="input-group mb-3">
+                                       <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Email Address">
+                                   </div>
+                                   <div class="input-group mb-1">
+                                       <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password">
+                                   </div>
+                                   <div class="input-group mb-5 d-flex justify-content-between">
+                                       <div class="form-check">
+                                           <input type="checkbox" class="form-check-input" id="formCheck">
+                                           <label for="formCheck" class="form-check-label text-secondary"><small>Remenber Me</small></label>
+                                       </div>
+                                       <div class="forget">
+                                           <small><a href="#">Forget password?</a></small>
+                                       </div>
+                                   </div>
+                                   <div class="input-group mb-3">
+                                       <button style="background-color: rgb(243, 147, 163);" class="btn w-100 fs-6">Login</button>
+                                   </div>
+                                   <div class="input-group mb-3">
+                                       <button style="background-color: rgb(250, 109, 132);" class="btn w-100 fs-6"><img src="gle.png" class="me-2 rounded-3" style="width: 20px;"><small>Sign Up With Google</small></button>
+                                   </div>                       
+                                </div>                  
+                            </div>
+                          </div>                  
+                       </div>
+                    </div>
+                  </div>
+                  <a style="color:palevioletred ;" data-aos="fade-up" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-search me-4" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></a>
+                  <a style="color:palevioletred ;" data-aos="fade-up" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-heart me-4" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg></a>
+                  <a style="color:palevioletred ;" data-aos="fade-up" href="shop-card.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart4 me-4" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                  </svg></a>
+              </div>
+            <!-- </div> -->
+            </div>
+            </div>
+            </nav>
+      </section>
+    
+      <!-- ====carousel==== -->
+      <section>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button style="display: none;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button style="display: none;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button style="display: none;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item  active" data-bs-interval="10000">
+                <div  class="video-container">
+                     <video autoplay muted loop>
+                         <source type="video/mp4" src="caro-vd-new-1.mp4">
+                     </video>
+                </div>
+                <div class="item p-2">
+                <div class="carousel-caption p-2">
+                    <h1 class="name animate__animated animate__backInDown">Discover Your Icecream Destine</h1>
+                      <p class="des text-white animate__animated animate__backInDown" >Experiment Your Taste Buds!</p>
+                      <a href="shop-card.html"><button class="des-btn text-dark fw-bold animate__animated animate__zoomInLeft" >Explore</button></a>
+               </div>
+               </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+                <div class="video-container">
+                    <video autoplay muted loop>
+                         <source type="video/mp4" src="video.mp4">
+                    </video>
+                </div>
+                <div class="item p-2">
+                <div class="carousel-caption p-2">
+                   <h1 class="name animate__animated animate__backInDown">Discover Your Icecream Destine</h1>
+                      <p class="des text-white animate__animated animate__backInDown" >Experiment Your Taste Buds!</p>
+                      <a href="shop-card.html"><button class="des-btn text-dark fw-bold animate__animated animate__zoomInLeft" >Explore</button></a>
+                </div>
+                </div>
+          </div>
+          <div class="carousel-item">
+             <div class="video-container">
+                  <video autoplay muted loop>
+                       <source type="video/mp4" src="video-3.mp4">
+                  </video>
+            </div>
+            <div class="item p-2">
+            <div class="carousel-caption p-2">
+                 <h1 class="name animate__animated animate__backInDown">Discover Your Icecream Destine</h1>
+                    <p class="des text-white text-white animate__animated animate__backInDown" >Experiment Your Taste Buds!</p>
+                    <a href="shop-card.html"><button class="des-btn text-dark fw-bold animate__animated animate__zoomInLeft" >Explore</button></a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+    <!-- ====carousel end==== -->
+    <!--====next section==== -->
+   <section style="background-color: #FBEDE5;" id="BestSellSec">
+      <div class="container">
+          <div class="text-center pb-5">
+            <div class="Best-selling text-center pt-5 pb-5" data-aos="fade-up">
+              <h2 class="pt-3"><span style="color: #c78306; border-bottom: 1px solid #c78306;">B</span>est Selling Ours</h2>            
+              <p style="font-size: large;">We Bake Every Item From The Core Of Our Hearts</p>
+              </div>
+          <div class="row gx-4 pb-5">
+              <div class="col-lg-4 col-md-6 pb-3 " id="col-item">
+                  <div style="background-color: white" class="p-3 rounded-3 shadow">
+                      <div class="icon"  data-aos="fade-up">
+                        <img class="img-fluid" src="birthday-cake.jpg"></div>
+                        <h3 class="title pt-1"><span style="color: #c78306; border-bottom: 1px solid #c78306;">B</span>irthDay Cakes</h3>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                    
+                        <p class="content"  data-aos="fade-up">Provident nihil minus quil consequatur non omnis mairoes.Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                          <a href="shop-card.html"  data-aos="fade-up" style="color: #c78306;">Buy Now<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 pb-3 "  id="col-item">
+                  <div style="background-color: white;" class="p-3 rounded-3 shadow" data-aos="fade-up">
+                      <div class="icon"  data-aos="fade-up">
+                        <img class="img-fluid" src="baked-img.jpg"></div>
+                        <h3 class="title pt-1"><span style="color: #c78306; border-bottom: 1px solid #c78306;">B</span>reads</h3>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                    
+                        <p class="content">Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</P>
+                      <a href="shop-card.html" style="color: #c78306;">Buy Now<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                   </div>
+              </div>
+              <div class="col-lg-4 col-md-6 pb-3 "  id="col-item">
+                  <div style="background-color: white" class="p-3 rounded-3 shadow " data-aos="fade-up">
+                      <div class="icon"  data-aos="fade-up">
+                        <img class="img-fluid" src="image-no-3.jpg"></div>
+                        <h3 class="title pt-1"><span style="color: #c78306; border-bottom: 1px solid #c78306;">C</span>one Ice</h3>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                    
+                        <p class="content">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.Minus ea aut.Vel qui id volupatas adipisci eos earum corrupti.</p>
+                      <a href="shop-card.html" style="color: #c78306;">Buy Now<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 pb-3 "  id="col-item">
+                  <div style="background-color: white" class="p-3 rounded-3 shadow " data-aos="fade-up">
+                      <div class="icon"  data-aos="fade-up">
+                        <img class="img-fluid" src="image-no-4.jpg"></div>
+                        <h3 class="title pt-1"><span style="color: #c78306; border-bottom: 1px solid #c78306;">I</span>ce Creams</h3>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                    
+                        <p class="content" data-aos="fade-up">Non et temporibus minus omnis sed dolor esse consequatur.Cupiditate sed error ea fuga sit provident adipisi neque.</p>
+                      <a href="shop-card.html" style="color: #c78306;">Buy Now<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 pb-3 "  id="col-item">
+                  <div style="background-color: white" class="p-3 rounded-3 shadow " data-aos="fade-up">
+                      <div class="icon"  data-aos="fade-up">
+                        <img class="img-fluid" src="image-no-5.jpg"></div>
+                        <h3 class="title pt-1"><span style="color: #c78306; border-bottom: 1px solid #c78306;">B</span>rownies</h3>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                    
+                        <p class="content" data-aos="fade-up">Cumque et suscipit saepe. Est mairoes autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                      <a href="shop-card.html" style="color: #c78306;">Buy Now<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                  </div>
+              </div>    
+              <div class="col-lg-4 col-md-6 pb-3 "  id="col-item">
+                  <div style="background-color: white" class="p-3 rounded-3 shadow " data-aos="fade-up">
+                      <div class="icon"  data-aos="fade-up">
+                        <img class="img-fluid" src="image-6-donut.jpg"></div>
+                        <h3 class="title pt-1"><span style="color: #c78306; border-bottom: 1px solid #c78306;">D</span>onuts</h3>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        <svg style="fill: orange;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                    
+                        <p class="content" data-aos="fade-up">Hic molestias ea quibusdam eos. Fugiat eni doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                      <a href="shop-card.html" style="color: #c78306;">Buy Now<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                  </div>
+              </div>
+           </div>
+          </div>
+      </div>
+  </section>
+    <!-- ===end===-->
+   
+    <!-- ====Gifting Corner Section==== -->
+  <section style="background-image: url('white-marble-img.jpg');background-size: cover;" id="gift-sec">
+    <div class="container">
+      <div class="text-center pb-5">
+        <div class="Best-selling text-center pt-5 pb-5">
+          <h2 class="pt-3" data-aos="fade-up"><span style="color: #c78306; border-bottom: 1px solid #c78306;">G</span>ifting Corner</h2>            
+          <p style="font-size: large;" data-aos="fade-up"><span>Crafed for Gifting, Indulge in the Art of Gifting Happiness!</span></p>
+          </div>
+          <div class="container">
+          <div class="row gx-5">
+            <div class="col-sm-12 col-lg-6 order-lg-1">
+              <p  data-aos="fade-up" >Sophisticated and luxurious gifting options for every occasion. Celebrate special moments with Ibako Chocolates and Ice Cream Cakes. You can also make your return gift or corporate gifts even more special with our exquisite range of chocolates.</p>
+                <span style="text-decoration: underline;font-size: large;">It couldn’t be simpler:</span>
+                <p class="pb-2 "  data-aos="fade-up">Walk in to your nearest ibako                
+                  Pick from our range of customised chocolate boxes or ice cream cakes                
+                  <span  data-aos="fade-up" style="color: #c78306;">"Write a personalised note
+                  Gift them to your loved one...."</span>
+                </p>
+                <p  data-aos="fade-up" style="font-size: large;color:rgb(77, 5, 5);">For gifting enquiry:</p>
+                <button type="button" class="gift-btn "  data-aos="fade-up">CLICK TO SUBMIT YOUR REQUEST</button>
+                <a><img class="img-fluid pt-2 "  data-aos="fade-up" src="https://www.ibaco.in/assets/img/oder-chocolate.png"></a>
+            </div>
+            <div class="col-sm-12 col-lg-6 order-lg-2" data-aos="fade-up" >
+             <img class="img-fluid rounded-circle " style="box-shadow: 0px 0px 7px 0px #777777;" src="gift-cake.jpg">
+             <img class="img-fluid rounded-circle " style="box-shadow: 0px 0px 7px 0px #777777;" src="gift-ckae-2.jpg">
+             <img class="img-fluid rounded-circle  d-none d-xl-inline" style="box-shadow: 0px 0px 7px 0px #777777;" src="gift-cake-3.jpg">
+            </div>
+      </div>
+      </div>
+    </div>
+  </section>
+    <!-- ====Gifting Corner Section End==== -->
+    <!-- =====Bake on your own section==== -->
+    <section id="make-on-your-own-sec" style="background-color: #FBEBE5;" class="pb-5"> 
+      <div class="container">
+        <div class="text-center pt-3">
+          <div class="text-center pt-5 pb-5"  data-aos="fade-up">
+            <h2 data-aos="fade-up"><span style="color: #c78306; border-bottom: 1px solid #c78306;">B</span>ake On Your Own</h2>
+            <p data-aos="fade-up" style="font-size: large;">Crafed for Gifting, Indulge in the Art of Gifting Happiness!</p>
+            </div>
+            <div class="container pt-3 pb-3 bg-white">
+              <div  data-aos="fade-up">
+                <img class="img-fluid " src="chef-img.jpg">
+                <div class="pb-3">
+                  <p  data-aos="fade-up">MEET THE FOUNDER</p>
+                  <P style="font-size: 20px;font-weight: 400;"  data-aos="fade-up">Sally McKenney</P>
+                  <p  data-aos="fade-up">Sally McKenney is a professional food photographer, cookbook author, and baker. Her kitchen-tested recipes and thorough step-by-step tutorials give readers the knowledge and confidence to bake from scratch. Sally has been featured on Good Morning America, HuffPost, Taste of Home, People and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-3 mt-4">
+              <div class="row gy-2">
+                <div id="make-div" class="col-sm-12 col-md-6 col-lg-3 p-2 mb-4" data-aos="fade-up" style="background-color:white;">
+                  <img id="make-img"  data-aos="fade-up" class="img-fluid p-2" src="baked-french-toast.jpg">
+                  <h5 class="pt-2"><span  data-aos="fade-up" style="color: #c78306; border-bottom: 1px solid #c78306;">B</span>akedd Cream French Toast</h5>
+                  <span  data-aos="fade-up"><svg style="color:pink;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-heart-fill p-1" viewBox="0 0 16 16"><path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15Zm0-9.007c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                  </svg>10 Comments</span>
+                </div>
+                <div id="make-div" class="col-sm-12 col-md-6 col-lg-3 p-2 mb-4" data-aos="fade-up"  style="background-color:white;">
+                  <img id="make-img"  data-aos="fade-up" class="img-fluid  p-2" src="savory-vegetable-tart-300x450.jpg">
+                  <h5 class="pt-2"><span  data-aos="fade-up" style="color: #c78306; border-bottom: 1px solid #c78306;">S</span>avory Vegatable Tart</h5>
+                  <span  data-aos="fade-up"><svg style="color:pink;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-heart-fill p-1" viewBox="0 0 16 16"><path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15Zm0-9.007c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                  </svg>12 Comments</span>
+                </div>
+                <div id="make-div" class="col-sm-12 col-md-6 col-lg-3 p-2 mb-4" data-aos="fade-up"  style="background-color:white;">
+                  <img id="make-img"  data-aos="fade-up" class="img-fluid  p-2" src="apple-bundt-cake-2-300x450.webp">
+                  <h5 class="pt-2"><span  data-aos="fade-up" style="color: #c78306; border-bottom: 1px solid #c78306;">A</span>pple Bundt Cake</h5>
+                  <span  data-aos="fade-up"><svg style="color:pink;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-heart-fill p-1" viewBox="0 0 16 16"><path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15Zm0-9.007c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                  </svg>8 Comments</span>
+                </div>
+                <div id="make-div" class="col-sm-12 col-md-6 col-lg-3 p-2 mb-4" data-aos="fade-up" style="background-color:white;">
+                  <img id="make-img"  data-aos="fade-up" class="img-fluid  p-2" src="chai-spice-donut-holes-1-300x450.jpg">
+                  <h5 class="pt-2"><span  data-aos="fade-up" style="color: #c78306; border-bottom: 1px solid #c78306;">C</span>hai Spice Donut Holes</h5>
+                  <span  data-aos="fade-up"><svg style="color:pink;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-heart-fill p-1" viewBox="0 0 16 16"><path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15Zm0-9.007c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                  </svg>16 Comments</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+            
+    </section>
+    <!-- =====Bake on your own section end==== -->
+ <!-- ===customers review==== -->
+ <section style="background-image: url('bg.img.png');background-size: cover;" class="m-1" id="review-sec">
+  <div class="container">
+    <div class="text-center pb-5">
+      <div class="Best-selling text-center pt-5 pb-5"  data-aos="fade-up">
+        <h2 class="pt-3"><span style="color: #c78306; border-bottom: 1px solid #c78306;">C</span>ustomers Reviews</h2>            
+        <p style="font-size: large;">From The Core Of Our Hearts</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 order-1 order-lg-1"  data-aos="fade-up">
+            <h3 class="p-3" style="color: rgb(243, 112, 133);" >Read what our customers love about us</h3>
+            <p>Over 200 companies from diverse sectors consult us to enhance the user experience of their products and services.</p>
+            <p>We have helped companies increase their customer base and generate multifold revenue with our service.</p>
+            <p>ibako lets you craft your own sundaes from a choice of exotic flavours, toppings and sauces. This unique brand from Hatsun Agro Product Ltd. offers 36 flavours inspired from exotic places around the world, and aims to offer more choices and deliver greater standards of taste to its customers. You can also pick from a whole range of ice cream cakes and create your own ice cream bars and cones.With our world-inspired flavours, we believe we are giving you an ice cream experience that will take you across the globe from Peru to Australia.</p>
+            <button id="read-btn" type="button">Read our stories</button>
+          </div>
+          <div class="col-sm-12 col-lg-6 order-2 order-lg-2">
+            <div class="row">
+              <div class="col-12 m-1">
+                <div class="row card"  data-aos="fade-up">
+                  <img class="col-3 img-fluid" src="user-1.jpg" alt="user" />
+                  <div class="col card__content"  data-aos="fade-up">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                      <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
+                    </svg></span>
+                      <div class="card__details"  data-aos="fade-up">
+                      <p>
+                        We had a great time collaboraring with the Filament team. They
+                        have my high recommendation!
+                      </p>
+                      <h4>- Marnus Stephen</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 m-1">
+                <div class="row card"  data-aos="fade-up">
+                  <img class="col-3 img-fluid" src="user-3.jpg" alt="user" />
+                  <div class="col card__content"  data-aos="fade-up">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                      <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
+                    </svg></span>
+                    <div class="card__details"  data-aos="fade-up">
+                      <p>
+                        We had a great time collaboraring with the Filament team. They
+                        have my high recommendation!
+                      </p>
+                      <h4>- Marnus Stephen</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+ </section>
+ <!-- ===review section end=== -->
+ <!--====join with us section  ===== -->
+ <section style="background-color: #FBEDE5;" id="join-with-us-sec" class="pb-5">
+    <div class="container">
+      <div class="text-center">
+        <div class="Best-selling text-center pt-2"  data-aos="fade-up">
+          <h2 class="pt-3"><span style="color: #c78306; border-bottom: 1px solid #c78306;">J</span>ion With Us</h2>            
+          <p style="font-size: large;">Become a export now,Join with us!</p>
+        </div>
+        <div class="p-1"  data-aos="fade-up">
+          <h3 class="p-3">Unlock Your Entrepreneurial Potential - Become a <span style="color: #c78306;">ibako's</span> Franchisee!</h3>
+          <h5 class="p-3">"Join Our Thriving Family!"</h5>
+          <p>Are you ready to embark on an exciting entrepreneurial journey? <span>ibako</span> is offering a unique opportunity for you to become a part of our success story. We believe in the power of collaboration and growth, and that's why we're inviting individuals like you to partner with us as a franchisee. By joining our family, you'll gain access to a well-established and trusted brand, a proven business model, and a dedicated support network. We're committed to helping you every step of the way, from setting up your own branch to achieving financial prosperity. Your success is our success, and we're eager to assist you in achieving your business dreams. If you're passionate, driven, and ready to take charge of your future, let's explore this exciting franchise opportunity together. Together, we'll build a brighter future, one branch at a time."</p>
+        </div>
+      </div>
+      <div class="p-3 m-2 pb-5" id="con-div">
+        <div class="text-center p-5 fw-bold"  data-aos="fade-up">
+          <div id="contact-now" class="rounded-3">Contact Now</div>
+        </div>
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4"  data-aos="fade-up">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            <div class="valid-feedback"  data-aos="fade-up">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4"  data-aos="fade-up">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+            <div class="valid-feedback"  data-aos="fade-up">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4"  data-aos="fade-up">
+            <label for="validationCustomUsername" class="form-label">Email</label>
+            <div class="input-group has-validation"  data-aos="fade-up">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback"  data-aos="fade-up">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6"  data-aos="fade-up">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback"  data-aos="fade-up">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3"  data-aos="fade-up">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback"  data-aos="fade-up">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3"  data-aos="fade-up">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback"  data-aos="fade-up">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12"  data-aos="fade-up">
+            <div class="form-check"  data-aos="fade-up">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback"  data-aos="fade-up">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 text-center"  data-aos="fade-up">
+            <button class="btn-sub p-1" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+    </div>
+ </section>
+ <!--====join with us section end====-->
+ <!-- contact us section-->
+ <section id="contact-us">
+     <div class="container">
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4  p-5">
+        <div class="col-sm-12 col-md-6 col-lg-3"  data-aos="fade-up">
+          <h3 class="p-2">ibako Serv</h3>
+          <p style="color: #777777;">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
+          <div class="d-flex gap-1"  data-aos="fade-up">
+              <svg style="background-color: rgb(59, 179, 226);color:white;border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="twitter-icon bi bi-twitter p-2" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>
+              <svg style="background-color: rgb(42, 42, 248);color:white;border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="fb-icon bi bi-facebook p-2" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+              <svg style="background: linear-gradient(to bottom, yellow,#f78f3b,#ec1c73);border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="insta-icon bi bi-instagram p-2" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg>
+              <svg style="background-color: rgb(4, 138, 190);color:white;border-radius:50%;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="in-icon bi bi-linkedin p-2" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>               
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3"  data-aos="fade-up">
+          <h3 class="p-2">EveryDay Special</h3>
+          <div class="mb-1" style="color: #777777;"  data-aos="fade-up">
+            <div  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2 p-1" viewBox="0 0 16 16">
+              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg>Ice Creams</div>
+            <div  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2 p-1" viewBox="0 0 16 16">
+              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg>Cakes</div>
+            <div  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2 p-1" viewBox="0 0 16 16">
+              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg>Cookies</div>
+            <div  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2 p-1" viewBox="0 0 16 16">
+              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg>Donuts</div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3"  data-aos="fade-up">
+          <h3 class="p-2">Contact Us</h3>
+          <div class="mb-1" style="color: #777777;"  data-aos="fade-up">
+            <div class="p-1"  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill p-1" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>10 Street, MDU</div>
+            <div class="p-1"  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill p-1" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>+91 2942 394223</div>
+            <div class="p-1"  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill p-1" viewBox="0 0 16 16">
+              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+            </svg>info@ibako.com</div>
+            <div class="p-1"  data-aos="fade-up"><svg style="color: #c78306;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clock-fill p-1" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            </svg>24/7 Open</div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3"  data-aos="fade-up">
+            <h3>Social Gallery</h3>
+            <div class="row gap-1">
+              <div class="col-4"><img class="img-fluid rounded-circle border p-2" style="border: 1px solid #c78306;" src="test-1-img.jpg"></div>
+              <div class="col-4"><img class="img-fluid rounded-circle border p-2" style="border: 1px solid #c78306;" src="test-2-img.jpg"></div>
+              <div class="col-4"><img class="img-fluid rounded-circle border p-2" style="border: 1px solid #c78306;" src="test-3-img.jpg"></div>
+              <div class="col-4"><img class="img-fluid rounded-circle border p-2" style="border: 1px solid #c78306;" src="test-4-img.jpg"></div>
+              <div class="col-4"><img class="img-fluid rounded-circle border p-2" style="border: 1px solid #c78306;" src="test-5-img.jpg"></div>
+              <div class="col-4"><img class="img-fluid rounded-circle border p-2" style="border: 1px solid #c78306;" src="test-6-img.jpg"></div>
+            </div>      
+        </div>
+      </div>
+     </div>
+ </section>
+ <section class="container-fluid" style="background-color: black;">
+  <div class="container"  data-aos="fade-up">
+    <div class="row p-3"  data-aos="fade-up">
+      <div class="col-md-6 text-center text-md-start text-white mb-3 mb-md-0">
+        <span>
+          <a href="#" style="text-decoration: none;color: white;"><svg style="color: #ac7206;" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-c-circle-fill p-1" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503Z"/>
+          </svg>Your Site Name,All rights reserved</a>
+        </span>
+      </div>
+      <div class="col-md-6 text-center text-md-end text-white  my-auto"  data-aos="fade-up">We never share your info.<span style="color: #ac7206;"><a href="#" style="text-decoration: none;color: #ac7206;">Privacy Policy</a></span></div>
+  </div>
+  
+ </section>
+ <!-- contact us section end-->
+ <script>
+ AOS.init();
+</script>
+
+             
+</body>
+</html>
