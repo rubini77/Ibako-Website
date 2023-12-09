@@ -1,7 +1,8 @@
 # Ibako-Website
 Introduction:
 
-ibako is a web-based platform where you can discover and order a variety of ice creams and baked items. The website is carefully crafted to ensure a responsive and user-friendly interface. Whether you have a sweet tooth or want to surprise a loved one with a tasty treat, ibako has got you covered.
+This responsive website is designed using HTML, CSS, Bootstrap, and JavaScript to provide a seamless and delightful browsing experience.
+
 
 Features:
 
